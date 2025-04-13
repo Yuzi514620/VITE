@@ -14,7 +14,7 @@ function TodoInput({ onAdd }) {
         value={input}
         onChange={(e) => setInput(e.target.value)}
         onKeyDown={(e) => e.key === 'Enter' && handleAdd()}
-        placeholder="輸入任務..."
+        placeholder="輸入代辦事項..."
         style={{ flex: 1 }}
       />
     <button onClick={handleAdd}>新增</button>
